@@ -1,0 +1,23 @@
+.navbar {
+    z-index: 999;
+    position: relative;
+    padding: 8px;
+    &-icons-end-container {
+        position: absolute;
+        left: 90%;
+    }
+}
+.navbar-login-icon-btn {
+    font-size: 40px;
+    &:hover {
+        cursor:pointer;
+    }
+}
+.navbar-menu-icon {
+    font-size: 40px;
+    color: #fff;
+}
+.navbar-menu-item-icon {
+    font-size: 32px;
+    color: #9c29b0;
+}
